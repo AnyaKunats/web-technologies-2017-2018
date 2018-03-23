@@ -1,0 +1,219 @@
+body {
+    background: url("http://colly.com/images/site/graph-tile.png");
+    font-family: "Times New Roman", Times, Cambria, serif;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+    transition: .5s ease-in-out;
+}
+.banner {
+    background: #000000;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 22px;
+    margin: auto 1% auto auto;
+    padding: 5px 0;
+    text-align: center;
+}
+p {
+    margin: 0 auto 0 auto;
+    padding: 4px 12px 4px 12px;
+}
+.f1 {
+    color: #ba1820;
+    float: left;
+    font-size: 65px;
+    line-height: 62%;
+    margin: 5px 4px 0 0;
+}
+
+.label {
+    color: #000;
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 1px;
+    padding: 2px 0 105px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.strap {
+    color: #999;
+    display: block;
+    font-style: italic;
+    text-align: center;
+}
+
+.h1 {
+    background: url("http://colly.com/images/site/logo.png") no-repeat 7px 37px;
+    height: 100px;
+    margin: 5% auto 5% auto;
+    padding: 8px 0 20px 0;
+    width: 500px;
+}
+
+.li1 {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    height: 300px;
+    list-style: none;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    width: 230px;
+}
+
+.ul1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+a {
+    color: #ba1820;
+    text-decoration: none;
+}
+
+.ahref {
+    color: #ffffff;
+}
+
+.h2 {
+    color: #545454;
+    display: block;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5% auto 5% 35%;
+    text-transform: uppercase;
+}
+
+.li2 {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    float: left;
+    height: 170px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    width: 230px;
+}
+
+.main {
+    margin: auto auto auto auto;
+    width: 68%;
+}
+
+.end {
+    color: #999;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 700px;
+}
+
+.end_img {
+
+    margin: 10% auto 3% -5%;
+}
+
+.aend {
+    color: #999;
+}
+
+img {
+    margin: -150px auto auto 10%;
+}
+@media screen and (max-width: 1290px)
+{
+    .main{
+        width: 82%;
+    }
+    .end {
+        margin: auto auto auto 18%;
+    }
+}
+@media screen and (max-width: 1090px) {
+
+    .main {
+        margin-left: 25%;
+        width: 48%;
+    }
+
+    .h1 {
+        margin-left: 5%;
+    }
+
+    .h2 {
+        margin-left: 25%;
+    }
+
+    .ul1 {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: auto auto;
+    }
+
+    .end {
+        margin-left: 7%;
+        width: 450px;
+    }
+
+    .end_img {
+
+        margin: 25% auto 5% -60%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        line-height: 18px;
+    }
+
+    .ul1 {
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto auto auto auto;
+    }
+
+    .li1 {
+        height: 250px;
+        width: 285px;
+    }
+
+    .img {
+        margin: -150px auto 1% 15%;
+    }
+
+    .main {
+        width: 40%;
+    }
+
+    .h1 {
+        margin-left: -25%;
+    }
+
+    .h2 {
+        font-size: 14px;
+        margin: 10% auto 10% 7%;
+    }
+
+    .li2 {
+        height: 150px;
+        width: 285px;
+    }
+
+    .end {
+        margin-left: -5%;
+        width: 350px;
+    }
+
+    .end_img {
+
+        margin: 35% auto 5% -125%;
+    }
+
+}

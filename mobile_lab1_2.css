@@ -1,0 +1,57 @@
+@media screen and (max-width: 480px){
+    body {
+        font-size: 13px;
+        line-height: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .banner {
+        font-size: 13px;
+        line-height: 20px;
+        margin: 2% 2.5% auto 2.5%;
+    }
+    p {
+        margin: auto;
+        padding: 3% auto 3% auto;
+    }
+    .h1 {
+        margin: 5% auto 20% -25%;
+        width: 190%;
+    }
+
+    .li1 {
+        height: 230px;
+        width: 90%;
+    }
+
+    .ul1 {
+        grid-auto-rows: auto auto auto auto;
+        grid-template-columns: 1fr;
+        margin-left: 3%;
+    }
+    .h2 {
+        font-size: 15px;
+        margin: 10% auto 10% 5%;
+    }
+    .li2 {
+        height: 150px;
+        line-height: 17px;
+        width: 90%;
+    }
+    .main {
+        margin: 0;
+        width: 100%;
+    }
+    .end {
+        width: 100%;
+        margin-left: 1%;
+    }
+    .end_img {
+
+        margin: 25% auto 5% -113%;
+        width: 99%;
+    }
+    img {
+        margin: -90% auto auto 15%;
+    }
+}
