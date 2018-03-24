@@ -13,6 +13,9 @@ body{
     background-color: #e9e9e9;
     font-family: Arial;
 }
+section{
+    margin: 5% auto 5% auto;
+}
 h2{
     font-size: 22px;
     font-weight: normal;
