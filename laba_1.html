@@ -7,25 +7,24 @@
 </head>
 <body>
 <form method="POST" action="#">
-<main class="fon1">
+<header class="fon1">
     <button class="buttonimg">
         <img src="pen.png"/>
     </button>
-</main>
+</header>
 <main class="fon2">
-<h1>Password request form</h1><br/>
-<main class="textparagraph">После загрузки файлов и отправки формы данные, связанные с Вашим аккаунтом Google (имя и фотография), будут записаны. Вы не <span>anya.kunats@gmail.com</span>? <a href="lab1.html">Сменить аккаунт</a>
+<h1>Password request form</h1>
+<section class="textparagraph">После загрузки файлов и отправки формы данные, связанные с Вашим аккаунтом Google (имя и фотография), будут записаны. Вы не <span>anya.kunats@gmail.com</span>? <a href="lab1.html">Сменить аккаунт</a>
     <br/><br/>
-    <main class="textred" >*Обязательно</main>
-</main>
-    <br/>
+    <div class="textred" >*Обязательно</div>
+</section>
+    <section>
     <h2>Please fill your name <span class="textred">*</span></h2>
-    <main>
-   <main><input type="text" placeholder="Мой ответ" required class="otvet1" name="username"/></main>
-</main>
-<br/>
+   <input type="text" placeholder="Мой ответ" required class="otvet1" name="username"/>
+    </section>
+    <section>
     <h2>What color you like <span class="textred">*</span></h2>
-<main class="otvet4">
+<div class="otvet4">
     <input type="radio" name="radio" value="red"/>
         <label>Red</label>
     <br/><br/>
@@ -44,10 +43,11 @@
     <input type="radio" name="radio" value="andere"/>
     <label>Другое:</label>
     <input type="text" class="otvet2"/>
-</main>
-<br/>
+</div>
+    </section>
+    <section>
     <h2>What town you like more? <span class="textred">*</span></h2>
-<main class="otvet5">
+<div class="otvet5">
     <input list="List" type="text" name="list" placeholder="Выбрать" >
 <datalist id="List" >
     <option>Brest</option>
@@ -57,27 +57,33 @@
     <option>Vitebsk</option>
     <option>Gomel</option>
 </datalist>
-</main>
-<br/>
+</div>
+    </section>
+    <section>
     <h2>Please describe (at least 50 symbols on symbols) your favorite programming language <span class="textred">*</span></h2>
-    <main><input type="text" placeholder="Мой ответ" class="otvet3" name="programming"/></main>
-<br/>
+    <input type="text" placeholder="Мой ответ" class="otvet3" name="programming"/>
+    </section>
+    <section>
     <h2>What years of education did you really like? <span class="textred">*</span></h2>
-<main class="otvet4">
+<div class="otvet4">
     <input type="checkbox" name="checkbox" value="first"/><label>First</label><br/><br/>
     <input type="checkbox" name="checkbox" value="second"/><label>Second</label><br/><br/>
     <input type="checkbox" name="checkbox" value="third"/><label>Third</label><br/><br/>
     <input type="checkbox" name="checkbox" value="fourth"/><label>Fourth</label><br/><br/>
-</main>
+</div>
+    </section>
+    <section>
     <h2>Please send any image <span class="textred">*</span></h2>
-    <main><input type="file" name="file" /></main>
-    <br/>
+    <input type="file" name="file" />
+    </section>
+    <section>
     <h2>Set last Monday Monday <span class="textred">*</span></h2>
 <input type="date" placeholder="Дата" class="data" name="data"/>
-    <br/><br/><br/><br/>
+    </section>
+    <br/><br/>
 <button type="submit" name="button" class="buttonotpr">ОТПРАВИТЬ</button>
     <br/><br/>
-    <main class="end">Никогда не используйте формы Google для передачи паролей.</main>
+    <footer class="end">Никогда не используйте формы Google для передачи паролей.</footer>
     </main>
 <footer class="footerend">Компания Google не имеет никакого отношения к этому контенту. Сообщение о нарушении - Условия использования - Дополнительные условия</footer>
 <footer class="footergoogle"><span class="bgoogle">Google</span> Формы</footer>
