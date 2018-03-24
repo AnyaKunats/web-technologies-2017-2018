@@ -9,14 +9,15 @@
         font-size: 13px;
         line-height: 20px;
         margin: 2% 2.5% auto 2.5%;
+
     }
     p {
         margin: auto;
         padding: 3% auto 3% auto;
     }
     .h1 {
-        margin: 5% auto 20% -25%;
-        width: 190%;
+        margin: 5% auto 10% auto;
+
     }
 
     .li1 {
@@ -39,19 +40,13 @@
         width: 90%;
     }
     .main {
-        margin: 0;
+        margin: auto;
         width: 100%;
     }
     .end {
         width: 100%;
-        margin-left: 1%;
     }
-    .end_img {
-
-        margin: 25% auto 5% -113%;
-        width: 99%;
-    }
-    img {
-        margin: -90% auto auto 15%;
+    .img {
+        margin: -90% auto auto 18%;
     }
 }
