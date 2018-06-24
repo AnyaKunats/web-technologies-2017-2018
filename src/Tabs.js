@@ -1,4 +1,6 @@
 import React from 'react';
+import './Tabs.css';
+
 class Edit extends React.Component{
     constructor(props) {
         super(props);
@@ -12,17 +14,17 @@ class Edit extends React.Component{
     }
     render(){
         return (
-            <p>
-            <input type='checkbox' className='edit' onClick={this.handleClick}/>{this.state.isEdit ? 'EDIT' : 'SAVE'}
+            <p className='edit'>
+            <input type='checkbox' onClick={this.handleClick}/>{this.state.isEdit ? 'EDIT' : 'SAVE'}
         </p>
     );
     }
 }
 function Edittext(props){
     return (
-        <div className="edittext">
+        <div>
         <Edit />
-        <textarea />
+        <textarea className='text' />
         </div>
 );
 }
@@ -45,4 +47,4 @@ class Tabs extends React.Component{
     }
 
 }
-export default Tabs
+export default Tabs;

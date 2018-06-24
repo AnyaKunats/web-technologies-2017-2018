@@ -1,18 +1,20 @@
-import React, { PureComponent, Component, Fragment } from 'react';
+import React from 'react';
 import './App.css';
-import User from './User';
 import Tabs from './Tabs'
-import Input from './Input'
 
 class App extends React.Component {
-    render(){
-        return(
-<div>
-            <Input />
-            //<User />
+    render() {
+        return (
+            <div className="main-app">
+        <main className="main-content">
+            {this.props.children}
+    </main>
+            <div className='tabs'>
             <Tabs />
             </div>
-        )
+        </div>
+    );
     }
-}
+};
+
 export default App;

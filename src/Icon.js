@@ -1,12 +1,10 @@
 import React from 'react';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
-class Icon extends React.Component{
-    render(){
-        const {icon}=this.props;
+function Icon(props){
+
         return(
-            <FontAwesomeIcon className='icon'>{icon}</FontAwesomeIcon>
+            <FontAwesomeIcon className='icon' icon={props.icon}/>
     );
-    }
 }
-export default Icon;
+export {Icon};
