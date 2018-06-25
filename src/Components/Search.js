@@ -1,5 +1,6 @@
 import React from 'react';
 import { browserHistory as history } from 'react-router';
+import '../index.css';
 
 class Search extends React.Component {
     constructor(props) {
@@ -13,7 +14,7 @@ class Search extends React.Component {
 
     render() {
         return (
-            <div className="search-page">
+            <div className="search">
             <h2>Enter username</h2>
         <form onSubmit={this._handleSubmit}>
     <input ref="userInput" className="search-page__input" type="text" />

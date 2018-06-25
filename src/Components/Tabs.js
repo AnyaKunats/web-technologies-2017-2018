@@ -1,6 +1,6 @@
 import React from 'react';
-import './Tabs.css';
-
+import '../index.css';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 class Edit extends React.Component{
     constructor(props) {
         super(props);
@@ -20,31 +20,25 @@ class Edit extends React.Component{
     );
     }
 }
-function Edittext(props){
-    return (
-        <div>
-        <Edit />
-        <textarea className='text' />
-        </div>
-);
-}
-class Tabs extends React.Component{
-    constructor(props) {
-        super(props);
+
+class Tabss extends React.Component{
+    constructor(props, context) {
+        super(props, context);
         this.state = {showEdit: true}
     }
     render(){
         return(
-            <form>
-            <button className='basic'>Основное</button>
-            <button className='education'>Образование</button>
-            <button className='contacts'>Контакты</button>
-            <hr />
-            <Edittext ed={this.state.showEdit} />
-        </form>
-
+            <Tabs >
+            <TabList className='tabs' >
+            <Tab className='onetab'>Основное</Tab>
+            <Tab className='onetab'>Образование</Tab>
+            <Tab className='onetab'>Контакты</Tab>
+            </TabList>
+            <Edit ed={this.state.showEdit} />
+        <textarea className='text' />
+        </Tabs>
     )
     }
-
 }
-export default Tabs;
+
+export default Tabss;
