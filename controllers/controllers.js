@@ -1,28 +1,38 @@
-const db = require('../helpers/readDataBase');
-const sortdb = require('../helpers/sortdb');
-const findByName = require('../helpers/findByName');
-const findById = require('../helpers/findById');
-const pagination = require('../helpers/pagination');
+const Film = require('../database/database');
 
 
 module.exports = {
     movies: (req, res) => {
-        res.send(db);
+        Film.findAll()
+        .then(movies => {
+            res.send(movies);
+        })
+        .catch(error => {
+            console.log(error);
+        });
     },
 
     sort: (req, res) => {
-        res.send(sortdb(db, req.query));
+        res.send(req.query);
     },
 
     findByName: (req, res) => {
-        res.send(findByName(db, req.params.name));
+        Film.find({ where: { title: req.params.name} })
+        .then(film => {
+            res.send(film);
+        })
+        .catch(error => {
+            console.log(error);
+        });
     },
 
     findById: (req, res) => {
-        res.send(findById(db, req.params.id));
-    },
-
-    pagination: (req, res) => {
-        res.send(pagination(db, req.query));
+        Film.find({ where: { id: req.params.id} })
+        .then(film => {
+            res.send(film);
+        })
+        .catch(error => {
+            console.log(error);
+        });
     }
 };

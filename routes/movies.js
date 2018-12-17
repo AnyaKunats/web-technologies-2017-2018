@@ -4,19 +4,12 @@ const CONST = require('../constants');
 
 const Router = require('express').Router();
 
-Router.route(CONST.MOVIES)
-    .get(Controllers.movies);
+Router.route(CONST.MOVIES).get(Controllers.movies);
 
-Router.route(CONST.SORT)
-    .get(validateQuery(schemas.sortSchema), Controllers.sort);
+Router.route(CONST.SORT).get(validateQuery(schemas.sortSchema), Controllers.sort);
 
-Router.route(CONST.NAME)
-    .get(validateParams(schemas.nameSchema), Controllers.findByName);
+Router.route(CONST.NAME).get(validateParams(schemas.nameSchema), Controllers.findByName);
 
-Router.route(CONST.ID)
-    .get(validateParams(schemas.idSchema), Controllers.findById);
-
-Router.route(CONST.PAGINATION)
-    .get(validateQuery(schemas.pagSchema), Controllers.pagination);
+Router.route(CONST.ID).get(validateParams(schemas.idSchema), Controllers.findById);
 
 module.exports = Router;

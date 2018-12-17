@@ -8,6 +8,5 @@ module.exports = {
     MOVIES: '/movies',
     SORT: '/sort',
     NAME: '/name/:name',
-    ID: '/id/:id',
-    PAGINATION: '/pagination'
+    ID: '/id/:id'
 };
