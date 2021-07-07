@@ -1,0 +1,120 @@
+.fon2{
+    background-color: #ffffff;
+    border-color: #ba92fd;
+    border-style: solid;
+    border-width:8px 1px 1px 1px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height:1310px;
+    margin: -230px 28% 150px 28%;
+    padding: 20px 30px 150px 30px;
+    width:675px;
+}
+body{
+    background-color: #e9e9e9;
+    font-family: Arial;
+}
+section{
+    margin: 4% auto 6% auto;
+}
+h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+.text_paragraph{
+    font-size: 15px;
+}
+.fon1{
+    background: #6927b7;
+    height:290px;
+    list-style: none;
+    margin: -8px -8px 140px -8px;
+    width: 110%;
+}
+.text_red{
+    color: red;
+}
+img{
+    background-color: #ffffff;
+    height: 30px;
+    width: 30px;
+}
+.buttonimg
+{
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 45px;
+    margin: 15px 0 0 1620px;
+    opacity: 0.8;
+    width: 50px;
+}
+.name {
+    border: none;
+    border-bottom: 2px solid #cecece;
+    font-size: 18px;
+    width: 350px;
+}
+.other {
+    border: none;
+    border-bottom: 2px solid #cecece;
+    font-size: 18px;
+    width: 520px;
+}
+.language {
+    border: none;
+    border-bottom: 2px solid #cecece;
+    font-size: 18px;
+    width: 600px;
+}
+.color{
+    font-size: 16px;
+}
+.town{
+    font-size: 20px;
+    width: 200px;
+}
+.data{
+    border: none;
+    border-bottom: 1px solid #cecece;
+    font-size: 16px;
+    width: 150px;
+}
+h1{
+    font-size:40px;
+    font-weight: normal;
+}
+.button_send {
+    background-color: #2d84ff;
+    border: 2px solid #2d84ff;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    height: 45px;
+    width: 105px;
+    margin: 5% auto 5% auto;
+}
+.end{
+    color: #8b8b8b;
+    font-size: 13px;
+    margin-top: 3%;
+}
+.footer_end{
+    color: #5a5a5a;
+    font-size: 13px;
+    margin: -100px 0 0 30%;
+    text-align: center;
+    width: 700px;
+}
+.footer_google {
+    color: #9e9e9e;
+    font-size: 25px;
+    margin: 20px 0 0 45%;
+    text-align: center;
+    width: 200px;
+}
+.google {
+    font-weight: bold;
+}

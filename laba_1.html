@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password request form</title>
+    <link rel="stylesheet" type="text/css" href="lab_1.css">
+</head>
+<body>
+<form method="POST" action="#">
+<header class="fon1">
+    <button class="buttonimg">
+        <img src="pen.png"/>
+    </button>
+</header>
+<main class="fon2">
+<h1>Password request form</h1>
+<section class="text_paragraph">После загрузки файлов и отправки формы данные, связанные с Вашим аккаунтом Google (имя и фотография), будут записаны. Вы не
+    <span>anya.kunats@gmail.com</span>?
+    <a href="lab1.html">Сменить аккаунт</a>
+</section>
+    <div class="text_red" >*Обязательно</div>
+    <section>
+    <h2>Please fill your name <span class="text_red">*</span></h2>
+   <input type="text" placeholder="Мой ответ" required class="name" name="username"/>
+    </section>
+    <section>
+    <h2>What color you like <span class="text_red">*</span></h2>
+<div class="color">
+    <p><input type="radio" name="radio" value="red"/>Red</p>
+    <p><input type="radio" name="radio" value="green"/>Green</p>
+    <p><input type="radio" name="radio" value="blue"/>Blue</p>
+    <p><input type="radio" name="radio" value="black"/>Black</p>
+    <p><input type="radio" name="radio" value="white"/>White</p>
+    <p><input type="radio" name="radio" value="other"/>Другое:
+    <input type="text" class="other"/></p>
+</div>
+    </section>
+    <section>
+    <h2>What town you like more? <span class="text_red">*</span></h2>
+<div class="town">
+    <input list="List" type="text" name="list" placeholder="Выбрать" >
+<datalist id="List" >
+    <option>Brest</option>
+    <option>Minsk</option>
+    <option>Grodno</option>
+    <option>Mogilev</option>
+    <option>Vitebsk</option>
+    <option>Gomel</option>
+</datalist>
+</div>
+    </section>
+    <section>
+    <h2>Please describe (at least 50 symbols on symbols) your favorite programming language <span class="text_red">*</span></h2>
+    <input type="text" placeholder="Мой ответ" class="language" name="language"/>
+    </section>
+    <section>
+    <h2>What years of education did you really like? <span class="text_red">*</span></h2>
+<div class="color">
+    <p><input type="checkbox" name="checkbox" value="first"/>First</p>
+    <p><input type="checkbox" name="checkbox" value="second"/>Second</p>
+    <p><input type="checkbox" name="checkbox" value="third"/>Third</p>
+    <p><input type="checkbox" name="checkbox" value="fourth"/>Fourth</p>
+</div>
+    </section>
+    <section>
+    <h2>Please send any image <span class="text_red">*</span></h2>
+    <input type="file" name="file" />
+    </section>
+    <section>
+    <h2>Set last Monday Monday <span class="text_red">*</span></h2>
+<input type="date" placeholder="Дата" class="data" name="data"/>
+    </section>
+<button type="submit" name="button" class="button_send">ОТПРАВИТЬ</button>
+    <footer class="end">Никогда не используйте формы Google для передачи паролей.</footer>
+    </main>
+<footer class="footer_end">Компания Google не имеет никакого отношения к этому контенту. Сообщение о нарушении - Условия использования - Дополнительные условия</footer>
+<footer class="footer_google"><span class="google">Google</span> Формы</footer>
+</form>
+</body>
+</html>
